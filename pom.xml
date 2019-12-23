@@ -19,5 +19,13 @@
            3gh
     <maven>3.0.3</maven>
   </prerequisites>
+         <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-11-96.us-east-2.compute.internal-snapshots</name>
+        <url>http://18.188.46.225:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
+         
 
 </project>
